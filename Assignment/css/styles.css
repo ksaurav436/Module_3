@@ -1,0 +1,26 @@
+.container{
+	width: 100%;
+}
+header > .container{
+	background-color: #333;
+	margin: 0;
+	width: auto;
+}
+.navbar-brand{
+	color: #fff;
+	font-size: 25px;
+}
+
+.text-center{
+	font-size: 25px;
+}
+
+.sub-heading{
+	font-size: 20px;
+}
+
+.data{
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 1000px;  
+}
