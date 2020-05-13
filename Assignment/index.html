@@ -12,11 +12,26 @@
 <body>
 	<header>
 		<div class="container">
-			<div class="navbar-header">
-				<nav id="header nav"class="navbar navbar-light bg-light">
- 	 				<a class="navbar-brand" href="index.html">Food, LLC</a>	
-				</nav>
-  			</div>
+				<nav class="navbar">
+			  <div class="container-fluid">
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="index.html">Food, LLC</a>
+			    </div>
+			  </div>
+			</nav>
+				<div class="collapse navbar-collapse" id="myNavbar">
+			      
+			      <ul class="nav navbar-nav navbar-right">
+			        <li><a class="text-center menu-item visible-xs" href="index.html">Chicken</a></li>
+			        <li><a class="text-center menu-item visible-xs" href="index.html">Beef</a></li>
+			        <li><a class="text-center menu-item visible-xs" href="index.html">Sushi</a></li>
+			      </ul>
+			    </div>
 		</div>
 	</header>
 
@@ -25,13 +40,13 @@
 	</div>
 
 	<div class="container">
-		<div style="background-color: #ccc" class="container">
+		<div style="background-color: #ccc" class="container main-content">
 		<h3 class="sub-heading text-center">Chicken</h3>
 		<div class="data">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Nunc sed blandit libero volutpat sed cras ornare arcu. Condimentum lacinia quis vel eros donec ac odio tempor orci. Integer vitae justo eget magna. Pharetra et ultrices neque ornare aenean euismod. Eu consequat ac felis donec et odio 
 		</div>
 		</div>
 	</div>
-	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/script.js"></script>
 </body>

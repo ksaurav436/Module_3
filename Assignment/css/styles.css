@@ -24,3 +24,29 @@ header > .container{
 	margin-right: 10px;
 	height: 1000px;  
 }
+
+.navbar-toggle{
+	background-color: #555;
+	border-color: #000;
+}
+.navbar-toggle:active{
+	border-color: #fff;
+}
+.icon-bar{
+	background-color: #000;
+}
+.menu-item{
+	color: #fff;
+	font-size: 20px;
+}
+
+.collapse{
+	border-color: #000;
+}
+
+
+@media (max-width: 768px ){
+	.main-content{
+		width: 80%
+	}
+}
